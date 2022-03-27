@@ -8,7 +8,7 @@ const options=[
   { label: "preorder", value: "preorder" },
   { label: "inorder", value: "inorder" },
   { label: "postorder", value: "postorder" },
-  { label: "level order", value: "level order" }
+  { label: "levelorder", value: "levelorder" }
 ]
 
 const TraverseType = ({ selectedTraversal, handleChange }) => (

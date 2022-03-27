@@ -1,0 +1,31 @@
+.TraverseType-container {
+    width: 30%;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .select-field {
+    width: 150px;
+  }
+
+  button {
+    width: 80px;
+  }
+  
+  input {
+    width: 74px;
+    margin-right: 20px;
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+    .TraverseType-container {
+      width: 100%;
+      min-height: auto;
+    }
+  }
+  
