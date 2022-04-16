@@ -135,10 +135,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="main-container">
-        <Viz data={this.state.data} delayedList={this.state.delayedList} />
-        <TraverseType selectedTraversal={this.state.selectedTraversal} handleChange={this.handleChange} />
-      </div>
+      <body>
+        <div className="viz">
+          <Viz data={this.state.data} delayedList={this.state.delayedList} />
+        </div>
+        <div className = "select">
+          <TraverseType selectedTraversal={this.state.selectedTraversal} handleChange={this.handleChange} />
+        </div>
+        </body>
     );
   }
 }

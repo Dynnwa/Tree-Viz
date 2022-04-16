@@ -4,5 +4,13 @@
   align-items: right;
   min-height: 100vh;
 }
+ 
+body {
+  margin:auto;
+}
+
+div {
+  float: left;
+}
 
 
